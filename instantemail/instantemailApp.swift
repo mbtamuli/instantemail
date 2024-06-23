@@ -8,10 +8,20 @@
 import SwiftUI
 
 @main
-struct instantemailApp: App {
+struct EmailAliasApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
+}
+
+struct CustomDomain {
+    var name: String
+    var aliases: [EmailAlias]
+}
+
+struct EmailAlias {
+    var alias: String
+    var email: String
 }

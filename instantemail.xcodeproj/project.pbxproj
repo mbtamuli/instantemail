@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE7AEE82C2897B900FFE1D0 /* DomainDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7AEE72C2897B900FFE1D0 /* DomainDetailView.swift */; };
+		0AE7AEEC2C2897F000FFE1D0 /* AddEditDomainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7AEEB2C2897F000FFE1D0 /* AddEditDomainView.swift */; };
+		0AE7AEEE2C28980100FFE1D0 /* AddEditAliasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE7AEED2C28980100FFE1D0 /* AddEditAliasView.swift */; };
 		0AF7A9D12C26BBFC00311DF9 /* instantemailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7A9D02C26BBFC00311DF9 /* instantemailApp.swift */; };
-		0AF7A9D32C26BBFC00311DF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7A9D22C26BBFC00311DF9 /* ContentView.swift */; };
+		0AF7A9D32C26BBFC00311DF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7A9D22C26BBFC00311DF9 /* MainView.swift */; };
 		0AF7A9D52C26BBFD00311DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7A9D42C26BBFD00311DF9 /* Assets.xcassets */; };
 		0AF7A9D82C26BBFD00311DF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7A9D72C26BBFD00311DF9 /* Preview Assets.xcassets */; };
 		0AF7A9E22C26BBFD00311DF9 /* instantemailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7A9E12C26BBFD00311DF9 /* instantemailTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE7AEE72C2897B900FFE1D0 /* DomainDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DomainDetailView.swift; path = ../../../../../DomainDetailView.swift; sourceTree = "<group>"; };
+		0AE7AEEB2C2897F000FFE1D0 /* AddEditDomainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEditDomainView.swift; path = ../../../../../AddEditDomainView.swift; sourceTree = "<group>"; };
+		0AE7AEED2C28980100FFE1D0 /* AddEditAliasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEditAliasView.swift; path = ../../../../../AddEditAliasView.swift; sourceTree = "<group>"; };
 		0AF7A9CD2C26BBFC00311DF9 /* instantemail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instantemail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF7A9D02C26BBFC00311DF9 /* instantemailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instantemailApp.swift; sourceTree = "<group>"; };
-		0AF7A9D22C26BBFC00311DF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AF7A9D22C26BBFC00311DF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0AF7A9D42C26BBFD00311DF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF7A9D72C26BBFD00311DF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AF7A9DD2C26BBFD00311DF9 /* instantemailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instantemailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				0AF7A9D02C26BBFC00311DF9 /* instantemailApp.swift */,
-				0AF7A9D22C26BBFC00311DF9 /* ContentView.swift */,
+				0AF7A9D22C26BBFC00311DF9 /* MainView.swift */,
 				0AF7A9D42C26BBFD00311DF9 /* Assets.xcassets */,
 				0AF7A9D62C26BBFD00311DF9 /* Preview Content */,
+				0AE7AEE72C2897B900FFE1D0 /* DomainDetailView.swift */,
+				0AE7AEEB2C2897F000FFE1D0 /* AddEditDomainView.swift */,
+				0AE7AEED2C28980100FFE1D0 /* AddEditAliasView.swift */,
 			);
 			path = instantemail;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF7A9D32C26BBFC00311DF9 /* ContentView.swift in Sources */,
+				0AE7AEEC2C2897F000FFE1D0 /* AddEditDomainView.swift in Sources */,
+				0AF7A9D32C26BBFC00311DF9 /* MainView.swift in Sources */,
 				0AF7A9D12C26BBFC00311DF9 /* instantemailApp.swift in Sources */,
+				0AE7AEE82C2897B900FFE1D0 /* DomainDetailView.swift in Sources */,
+				0AE7AEEE2C28980100FFE1D0 /* AddEditAliasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
